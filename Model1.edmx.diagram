@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="46a17548f0344e01a257de805e6bf462" Name="Diagram1">
+        <EntityTypeShape EntityType="databaseOrModel.EmzeiTashlum" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="databaseOrModel.hakdashaTbl" Width="1.5" PointX="0.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="databaseOrModel.studentTbl" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="databaseOrModel.tashlumTbl" Width="1.5" PointX="5.25" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="databaseOrModel.tashlumTbl1" Width="1.5" PointX="8.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="databaseOrModel.tblKlali" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="databaseOrModel.tblTorem" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <AssociationConnector Association="databaseOrModel.FK_tashlumTbl_EmzeiTashlum" ManuallyRouted="false" />
+        <AssociationConnector Association="databaseOrModel.FK_tashlumTbl1_EmzeiTashlum" ManuallyRouted="false" />
+        <AssociationConnector Association="databaseOrModel.FK_tblTorem_hakdashaTbl" ManuallyRouted="false" />
+        <AssociationConnector Association="databaseOrModel.FK_tblTorem_studentTbl" ManuallyRouted="false" />
+        <AssociationConnector Association="databaseOrModel.FK_tashlumTbl_tblTorem1" ManuallyRouted="false" />
+        <AssociationConnector Association="databaseOrModel.FK_tashlumTbl1_tblTorem1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

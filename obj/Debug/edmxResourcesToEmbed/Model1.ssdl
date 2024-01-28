@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="databaseOrModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="EmzeiTashlum">
+    <Key>
+      <PropertyRef Name="intEmzei" />
+    </Key>
+    <Property Name="intEmzei" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="hakdashaTbl">
+    <Key>
+      <PropertyRef Name="idHakdasha" />
+    </Key>
+    <Property Name="idHakdasha" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="studentTbl">
+    <Key>
+      <PropertyRef Name="idStudent" />
+    </Key>
+    <Property Name="idStudent" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tzStudent" Type="nchar" MaxLength="9" />
+    <Property Name="lastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="firstname" Type="nvarchar" MaxLength="50" />
+    <Property Name="connect" Type="nchar" MaxLength="10" />
+    <Property Name="kita" Type="nvarchar" MaxLength="50" />
+    <Property Name="madricha" Type="nvarchar" MaxLength="50" />
+    <Property Name="teacher" Type="nvarchar" MaxLength="20" />
+    <Property Name="class" Type="nvarchar" MaxLength="50" />
+    <Property Name="miun" Type="nchar" MaxLength="10" />
+    <Property Name="phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="yaad" Type="int" />
+    <Property Name="untill" Type="int" />
+  </EntityType>
+  <EntityType Name="tashlumTbl">
+    <Key>
+      <PropertyRef Name="idTashlum" />
+    </Key>
+    <Property Name="idTashlum" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idTorem" Type="int" Nullable="false" />
+    <Property Name="sum" Type="int" />
+    <Property Name="idSug" Type="int" />
+    <Property Name="misTashlum" Type="int" />
+    <Property Name="date" Type="date" />
+    <Property Name="sumKolel" Type="int" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="idAshrai" Type="nchar" MaxLength="10" />
+    <Property Name="sugAshrai" Type="nchar" MaxLength="10" />
+    <Property Name="numAshrai" Type="nchar" MaxLength="10" />
+    <Property Name="tokef" Type="date" />
+    <Property Name="cvv" Type="int" />
+    <Property Name="kabala" Type="bit" />
+    <Property Name="nameKabala" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tashlumTbl1">
+    <Key>
+      <PropertyRef Name="idTorem" />
+    </Key>
+    <Property Name="idTorem" Type="int" Nullable="false" />
+    <Property Name="sum" Type="int" />
+    <Property Name="idSug" Type="int" />
+    <Property Name="misTashlum" Type="int" />
+    <Property Name="date" Type="date" />
+    <Property Name="sumKolel" Type="int" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="idAshrai" Type="nchar" MaxLength="10" />
+    <Property Name="sugAshrai" Type="nchar" MaxLength="10" />
+    <Property Name="numAshrai" Type="nchar" MaxLength="16" />
+    <Property Name="tokef" Type="date" />
+    <Property Name="idBalAshrai" Type="nvarchar" MaxLength="9" />
+    <Property Name="cvv" Type="int" />
+    <Property Name="kabala" Type="bit" />
+    <Property Name="nameKabala" Type="nvarchar" MaxLength="50" />
+    <Property Name="namAccount" Type="nvarchar" MaxLength="10" />
+    <Property Name="numSnif" Type="int" />
+    <Property Name="misCheck" Type="nvarchar" MaxLength="10" />
+    <Property Name="sum1" Type="int" />
+    <Property Name="date1" Type="date" />
+    <Property Name="numBank" Type="int" />
+    <Property Name="namAccount1" Type="nvarchar" MaxLength="10" />
+    <Property Name="numSnif1" Type="int" />
+    <Property Name="misCheck1" Type="nvarchar" MaxLength="10" />
+    <Property Name="sum11" Type="int" />
+    <Property Name="date2" Type="date" />
+    <Property Name="numBank1" Type="int" />
+    <Property Name="namAccount2" Type="nvarchar" MaxLength="10" />
+    <Property Name="numSnif2" Type="int" />
+    <Property Name="misCheck2" Type="nvarchar" MaxLength="10" />
+    <Property Name="sum12" Type="int" />
+    <Property Name="numBank2" Type="int" />
+    <Property Name="namAccount3" Type="nvarchar" MaxLength="10" />
+    <Property Name="numSnif3" Type="int" />
+    <Property Name="misCheck3" Type="nvarchar" MaxLength="10" />
+    <Property Name="sum13" Type="int" />
+    <Property Name="date3" Type="date" />
+    <Property Name="numBank3" Type="int" />
+    <Property Name="namAccount4" Type="nvarchar" MaxLength="10" />
+    <Property Name="numSnif4" Type="int" />
+    <Property Name="misCheck4" Type="nvarchar" MaxLength="10" />
+    <Property Name="sum14" Type="int" />
+    <Property Name="date4" Type="date" />
+    <Property Name="numBank4" Type="int" />
+    <Property Name="namAccount5" Type="nvarchar" MaxLength="10" />
+    <Property Name="numSnif5" Type="int" />
+    <Property Name="misCheck5" Type="nvarchar" MaxLength="10" />
+    <Property Name="sum15" Type="int" />
+    <Property Name="date5" Type="date" />
+    <Property Name="numBank5" Type="int" />
+    <Property Name="namAccount6" Type="nvarchar" MaxLength="10" />
+    <Property Name="numSnif6" Type="int" />
+    <Property Name="misCheck6" Type="nvarchar" MaxLength="10" />
+    <Property Name="sum16" Type="int" />
+    <Property Name="date6" Type="date" />
+    <Property Name="numBank6" Type="int" />
+    <Property Name="namAccount7" Type="nvarchar" MaxLength="10" />
+    <Property Name="numSnif7" Type="int" />
+    <Property Name="misCheck7" Type="nvarchar" MaxLength="10" />
+    <Property Name="sum17" Type="int" />
+    <Property Name="date7" Type="date" />
+    <Property Name="numBank7" Type="int" />
+    <Property Name="namAccount8" Type="nvarchar" MaxLength="10" />
+    <Property Name="numSnif8" Type="int" />
+    <Property Name="misCheck8" Type="nvarchar" MaxLength="10" />
+    <Property Name="sum18" Type="int" />
+    <Property Name="date8" Type="date" />
+    <Property Name="numBank8" Type="int" />
+    <Property Name="namAccount9" Type="nvarchar" MaxLength="10" />
+    <Property Name="numSnif9" Type="int" />
+    <Property Name="misCheck9" Type="nvarchar" MaxLength="10" />
+    <Property Name="sum19" Type="int" />
+    <Property Name="date9" Type="date" />
+    <Property Name="numBank9" Type="int" />
+    <Property Name="numTofes" Type="int" />
+    <Property Name="numAsmachta" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblKlali">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="yaad" Type="int" />
+    <Property Name="date_start" Type="datetime" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblTorem">
+    <Key>
+      <PropertyRef Name="idTorem" />
+    </Key>
+    <Property Name="idTorem" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nameTorem" Type="nvarchar" MaxLength="50" />
+    <Property Name="street" Type="nvarchar" MaxLength="50" />
+    <Property Name="city" Type="nchar" MaxLength="10" />
+    <Property Name="tel" Type="nchar" MaxLength="10" />
+    <Property Name="phone" Type="nchar" MaxLength="10" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="hakdasha" Type="nvarchar" MaxLength="50" />
+    <Property Name="idSug" Type="int" />
+    <Property Name="nameStudent" Type="nvarchar" MaxLength="50" />
+    <Property Name="idStudent" Type="int" />
+  </EntityType>
+  <Association Name="FK_tashlumTbl_EmzeiTashlum">
+    <End Role="EmzeiTashlum" Type="Self.EmzeiTashlum" Multiplicity="0..1" />
+    <End Role="tashlumTbl" Type="Self.tashlumTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EmzeiTashlum">
+        <PropertyRef Name="intEmzei" />
+      </Principal>
+      <Dependent Role="tashlumTbl">
+        <PropertyRef Name="idSug" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tashlumTbl_tblTorem1">
+    <End Role="tblTorem" Type="Self.tblTorem" Multiplicity="1" />
+    <End Role="tashlumTbl" Type="Self.tashlumTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblTorem">
+        <PropertyRef Name="idTorem" />
+      </Principal>
+      <Dependent Role="tashlumTbl">
+        <PropertyRef Name="idTorem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tashlumTbl1_EmzeiTashlum">
+    <End Role="EmzeiTashlum" Type="Self.EmzeiTashlum" Multiplicity="0..1" />
+    <End Role="tashlumTbl1" Type="Self.tashlumTbl1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EmzeiTashlum">
+        <PropertyRef Name="intEmzei" />
+      </Principal>
+      <Dependent Role="tashlumTbl1">
+        <PropertyRef Name="idSug" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tashlumTbl1_tblTorem1">
+    <End Role="tblTorem" Type="Self.tblTorem" Multiplicity="1" />
+    <End Role="tashlumTbl1" Type="Self.tashlumTbl1" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="tblTorem">
+        <PropertyRef Name="idTorem" />
+      </Principal>
+      <Dependent Role="tashlumTbl1">
+        <PropertyRef Name="idTorem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblTorem_hakdashaTbl">
+    <End Role="hakdashaTbl" Type="Self.hakdashaTbl" Multiplicity="0..1" />
+    <End Role="tblTorem" Type="Self.tblTorem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="hakdashaTbl">
+        <PropertyRef Name="idHakdasha" />
+      </Principal>
+      <Dependent Role="tblTorem">
+        <PropertyRef Name="idSug" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblTorem_studentTbl">
+    <End Role="studentTbl" Type="Self.studentTbl" Multiplicity="0..1" />
+    <End Role="tblTorem" Type="Self.tblTorem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="studentTbl">
+        <PropertyRef Name="idStudent" />
+      </Principal>
+      <Dependent Role="tblTorem">
+        <PropertyRef Name="idStudent" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="databaseOrModelStoreContainer">
+    <EntitySet Name="EmzeiTashlum" EntityType="Self.EmzeiTashlum" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="hakdashaTbl" EntityType="Self.hakdashaTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="studentTbl" EntityType="Self.studentTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tashlumTbl" EntityType="Self.tashlumTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tashlumTbl1" EntityType="Self.tashlumTbl1" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblKlali" EntityType="Self.tblKlali" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblTorem" EntityType="Self.tblTorem" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_tashlumTbl_EmzeiTashlum" Association="Self.FK_tashlumTbl_EmzeiTashlum">
+      <End Role="EmzeiTashlum" EntitySet="EmzeiTashlum" />
+      <End Role="tashlumTbl" EntitySet="tashlumTbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tashlumTbl_tblTorem1" Association="Self.FK_tashlumTbl_tblTorem1">
+      <End Role="tblTorem" EntitySet="tblTorem" />
+      <End Role="tashlumTbl" EntitySet="tashlumTbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tashlumTbl1_EmzeiTashlum" Association="Self.FK_tashlumTbl1_EmzeiTashlum">
+      <End Role="EmzeiTashlum" EntitySet="EmzeiTashlum" />
+      <End Role="tashlumTbl1" EntitySet="tashlumTbl1" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tashlumTbl1_tblTorem1" Association="Self.FK_tashlumTbl1_tblTorem1">
+      <End Role="tblTorem" EntitySet="tblTorem" />
+      <End Role="tashlumTbl1" EntitySet="tashlumTbl1" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblTorem_hakdashaTbl" Association="Self.FK_tblTorem_hakdashaTbl">
+      <End Role="hakdashaTbl" EntitySet="hakdashaTbl" />
+      <End Role="tblTorem" EntitySet="tblTorem" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblTorem_studentTbl" Association="Self.FK_tblTorem_studentTbl">
+      <End Role="studentTbl" EntitySet="studentTbl" />
+      <End Role="tblTorem" EntitySet="tblTorem" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,12 @@
+C:\Users\USER\source\repos\WebApiProject\Dal\bin\Debug\Dal.exe.config
+C:\Users\USER\source\repos\WebApiProject\Dal\bin\Debug\Dal.exe
+C:\Users\USER\source\repos\WebApiProject\Dal\bin\Debug\Dal.pdb
+C:\Users\USER\source\repos\WebApiProject\Dal\bin\Debug\EntityFramework.dll
+C:\Users\USER\source\repos\WebApiProject\Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\source\repos\WebApiProject\Dal\bin\Debug\EntityFramework.xml
+C:\Users\USER\source\repos\WebApiProject\Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\source\repos\WebApiProject\Dal\obj\Debug\Dal.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\WebApiProject\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\WebApiProject\Dal\obj\Debug\Dal.csproj.CopyComplete
+C:\Users\USER\source\repos\WebApiProject\Dal\obj\Debug\Dal.exe
+C:\Users\USER\source\repos\WebApiProject\Dal\obj\Debug\Dal.pdb

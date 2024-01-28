@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="databaseOrModelStoreContainer" CdmEntityContainer="databaseOrEntities">
+    <EntitySetMapping Name="EmzeiTashlum">
+      <EntityTypeMapping TypeName="databaseOrModel.EmzeiTashlum">
+        <MappingFragment StoreEntitySet="EmzeiTashlum">
+          <ScalarProperty Name="intEmzei" ColumnName="intEmzei" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hakdashaTbl">
+      <EntityTypeMapping TypeName="databaseOrModel.hakdashaTbl">
+        <MappingFragment StoreEntitySet="hakdashaTbl">
+          <ScalarProperty Name="idHakdasha" ColumnName="idHakdasha" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="studentTbl">
+      <EntityTypeMapping TypeName="databaseOrModel.studentTbl">
+        <MappingFragment StoreEntitySet="studentTbl">
+          <ScalarProperty Name="idStudent" ColumnName="idStudent" />
+          <ScalarProperty Name="tzStudent" ColumnName="tzStudent" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="connect" ColumnName="connect" />
+          <ScalarProperty Name="kita" ColumnName="kita" />
+          <ScalarProperty Name="madricha" ColumnName="madricha" />
+          <ScalarProperty Name="teacher" ColumnName="teacher" />
+          <ScalarProperty Name="class" ColumnName="class" />
+          <ScalarProperty Name="miun" ColumnName="miun" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="yaad" ColumnName="yaad" />
+          <ScalarProperty Name="untill" ColumnName="untill" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tashlumTbl">
+      <EntityTypeMapping TypeName="databaseOrModel.tashlumTbl">
+        <MappingFragment StoreEntitySet="tashlumTbl">
+          <ScalarProperty Name="idTashlum" ColumnName="idTashlum" />
+          <ScalarProperty Name="idTorem" ColumnName="idTorem" />
+          <ScalarProperty Name="sum" ColumnName="sum" />
+          <ScalarProperty Name="idSug" ColumnName="idSug" />
+          <ScalarProperty Name="misTashlum" ColumnName="misTashlum" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="sumKolel" ColumnName="sumKolel" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="idAshrai" ColumnName="idAshrai" />
+          <ScalarProperty Name="sugAshrai" ColumnName="sugAshrai" />
+          <ScalarProperty Name="numAshrai" ColumnName="numAshrai" />
+          <ScalarProperty Name="tokef" ColumnName="tokef" />
+          <ScalarProperty Name="cvv" ColumnName="cvv" />
+          <ScalarProperty Name="kabala" ColumnName="kabala" />
+          <ScalarProperty Name="nameKabala" ColumnName="nameKabala" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tashlumTbl1">
+      <EntityTypeMapping TypeName="databaseOrModel.tashlumTbl1">
+        <MappingFragment StoreEntitySet="tashlumTbl1">
+          <ScalarProperty Name="idTorem" ColumnName="idTorem" />
+          <ScalarProperty Name="sum" ColumnName="sum" />
+          <ScalarProperty Name="idSug" ColumnName="idSug" />
+          <ScalarProperty Name="misTashlum" ColumnName="misTashlum" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="sumKolel" ColumnName="sumKolel" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="idAshrai" ColumnName="idAshrai" />
+          <ScalarProperty Name="sugAshrai" ColumnName="sugAshrai" />
+          <ScalarProperty Name="numAshrai" ColumnName="numAshrai" />
+          <ScalarProperty Name="tokef" ColumnName="tokef" />
+          <ScalarProperty Name="idBalAshrai" ColumnName="idBalAshrai" />
+          <ScalarProperty Name="cvv" ColumnName="cvv" />
+          <ScalarProperty Name="kabala" ColumnName="kabala" />
+          <ScalarProperty Name="nameKabala" ColumnName="nameKabala" />
+          <ScalarProperty Name="namAccount" ColumnName="namAccount" />
+          <ScalarProperty Name="numSnif" ColumnName="numSnif" />
+          <ScalarProperty Name="misCheck" ColumnName="misCheck" />
+          <ScalarProperty Name="sum1" ColumnName="sum1" />
+          <ScalarProperty Name="date1" ColumnName="date1" />
+          <ScalarProperty Name="numBank" ColumnName="numBank" />
+          <ScalarProperty Name="namAccount1" ColumnName="namAccount1" />
+          <ScalarProperty Name="numSnif1" ColumnName="numSnif1" />
+          <ScalarProperty Name="misCheck1" ColumnName="misCheck1" />
+          <ScalarProperty Name="sum11" ColumnName="sum11" />
+          <ScalarProperty Name="date2" ColumnName="date2" />
+          <ScalarProperty Name="numBank1" ColumnName="numBank1" />
+          <ScalarProperty Name="namAccount2" ColumnName="namAccount2" />
+          <ScalarProperty Name="numSnif2" ColumnName="numSnif2" />
+          <ScalarProperty Name="misCheck2" ColumnName="misCheck2" />
+          <ScalarProperty Name="sum12" ColumnName="sum12" />
+          <ScalarProperty Name="numBank2" ColumnName="numBank2" />
+          <ScalarProperty Name="namAccount3" ColumnName="namAccount3" />
+          <ScalarProperty Name="numSnif3" ColumnName="numSnif3" />
+          <ScalarProperty Name="misCheck3" ColumnName="misCheck3" />
+          <ScalarProperty Name="sum13" ColumnName="sum13" />
+          <ScalarProperty Name="date3" ColumnName="date3" />
+          <ScalarProperty Name="numBank3" ColumnName="numBank3" />
+          <ScalarProperty Name="namAccount4" ColumnName="namAccount4" />
+          <ScalarProperty Name="numSnif4" ColumnName="numSnif4" />
+          <ScalarProperty Name="misCheck4" ColumnName="misCheck4" />
+          <ScalarProperty Name="sum14" ColumnName="sum14" />
+          <ScalarProperty Name="date4" ColumnName="date4" />
+          <ScalarProperty Name="numBank4" ColumnName="numBank4" />
+          <ScalarProperty Name="namAccount5" ColumnName="namAccount5" />
+          <ScalarProperty Name="numSnif5" ColumnName="numSnif5" />
+          <ScalarProperty Name="misCheck5" ColumnName="misCheck5" />
+          <ScalarProperty Name="sum15" ColumnName="sum15" />
+          <ScalarProperty Name="date5" ColumnName="date5" />
+          <ScalarProperty Name="numBank5" ColumnName="numBank5" />
+          <ScalarProperty Name="namAccount6" ColumnName="namAccount6" />
+          <ScalarProperty Name="numSnif6" ColumnName="numSnif6" />
+          <ScalarProperty Name="misCheck6" ColumnName="misCheck6" />
+          <ScalarProperty Name="sum16" ColumnName="sum16" />
+          <ScalarProperty Name="date6" ColumnName="date6" />
+          <ScalarProperty Name="numBank6" ColumnName="numBank6" />
+          <ScalarProperty Name="namAccount7" ColumnName="namAccount7" />
+          <ScalarProperty Name="numSnif7" ColumnName="numSnif7" />
+          <ScalarProperty Name="misCheck7" ColumnName="misCheck7" />
+          <ScalarProperty Name="sum17" ColumnName="sum17" />
+          <ScalarProperty Name="date7" ColumnName="date7" />
+          <ScalarProperty Name="numBank7" ColumnName="numBank7" />
+          <ScalarProperty Name="namAccount8" ColumnName="namAccount8" />
+          <ScalarProperty Name="numSnif8" ColumnName="numSnif8" />
+          <ScalarProperty Name="misCheck8" ColumnName="misCheck8" />
+          <ScalarProperty Name="sum18" ColumnName="sum18" />
+          <ScalarProperty Name="date8" ColumnName="date8" />
+          <ScalarProperty Name="numBank8" ColumnName="numBank8" />
+          <ScalarProperty Name="namAccount9" ColumnName="namAccount9" />
+          <ScalarProperty Name="numSnif9" ColumnName="numSnif9" />
+          <ScalarProperty Name="misCheck9" ColumnName="misCheck9" />
+          <ScalarProperty Name="sum19" ColumnName="sum19" />
+          <ScalarProperty Name="date9" ColumnName="date9" />
+          <ScalarProperty Name="numBank9" ColumnName="numBank9" />
+          <ScalarProperty Name="numTofes" ColumnName="numTofes" />
+          <ScalarProperty Name="numAsmachta" ColumnName="numAsmachta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblKlali">
+      <EntityTypeMapping TypeName="databaseOrModel.tblKlali">
+        <MappingFragment StoreEntitySet="tblKlali">
+          <ScalarProperty Name="yaad" ColumnName="yaad" />
+          <ScalarProperty Name="date_start" ColumnName="date_start" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblTorem">
+      <EntityTypeMapping TypeName="databaseOrModel.tblTorem">
+        <MappingFragment StoreEntitySet="tblTorem">
+          <ScalarProperty Name="idTorem" ColumnName="idTorem" />
+          <ScalarProperty Name="nameTorem" ColumnName="nameTorem" />
+          <ScalarProperty Name="street" ColumnName="street" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="hakdasha" ColumnName="hakdasha" />
+          <ScalarProperty Name="idSug" ColumnName="idSug" />
+          <ScalarProperty Name="nameStudent" ColumnName="nameStudent" />
+          <ScalarProperty Name="idStudent" ColumnName="idStudent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
